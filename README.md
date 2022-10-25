@@ -9,14 +9,23 @@ This repository contains starter set for research of the new startegies of Bayes
 To prepare the workspace, you need to create an environment:
 
 > conda env create -n hackaton python=3.10.7
+> 
 > conda activate hackaton
+> 
 > conda install botorch -c pytorch -c gpytorch -c conda-forge
+> 
 > conda install pip
+> 
 > conda install ipykernel
+> 
 > python -m ipykernel install --user --name hackaton --display-name "BO_starterkit"
+> 
 > pip install notebook
+> 
 > pip install pandas
+> 
 > pip install matplotlib
+> 
 > pip install benchmark-functions
 
 After this, you may start juptyer notebook:
